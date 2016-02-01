@@ -1,0 +1,14 @@
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+<!--<changeBounds>
+    <targets>
+        <target android:targetId="@id/ivPosterImage" />
+        <target android:targetId="@id/detailed_image" />
+    </targets>
+</changeBounds>
+<changeImageTransform>
+    <targets>
+        <target android:targetId="@id/ivPosterImage" />
+        <target android:targetId="@id/detailed_image" />
+    </targets>
+</changeImageTransform> -->
+</transitionSet>

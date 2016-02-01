@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    xmlns:fb="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/social_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        style="@style/TextMainTitle"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/login_button"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp" />
+
+    <!--
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/default_margin"
+        android:layout_margin="@dimen/default_margin"
+        android:text="@string/fabook_login_button_text"
+        android:drawableLeft="@drawable/com_facebook_button_icon"
+        android:layout_centerInParent="true"
+        style="@style/FacebookButtonStyle"/> -->
+
+</RelativeLayout>

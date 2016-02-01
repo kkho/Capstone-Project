@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/profile_picture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/image_view_movie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/frame_bar_info">
+
+                        <ImageView
+                            android:id="@+id/detailed_image"
+                            android:layout_width="@dimen/item_card_detailed_width"
+                            android:layout_height="@dimen/item_card_detailed_height"
+                            android:layout_margin="@dimen/default_margin"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@null"
+                            android:padding="0dp"
+                            android:scaleType="fitXY"
+                            android:transitionName="moviecover"
+                            tools:src="@drawable/image_placeholder" />
+
+                        <LinearLayout
+                            android:id="@+id/event_info_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="@dimen/default_margin"
+                            android:layout_marginRight="@dimen/default_margin"
+                            android:layout_marginTop="@dimen/default_margin"
+                            android:layout_marginBottom="@dimen/default_margin"
+                            android:layout_toEndOf="@+id/detailed_image">
+
+                            <TextView
+                                android:id="@+id/start_date_text"
+                                style="@style/TextNormal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/default_margin"
+                                android:gravity="center"
+                                tools:text="2015" />
+
+                            <TextView
+                                android:id="@+id/venue_address"
+                                style="@style/TextNormal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/default_margin"
+                                android:gravity="center"
+                                tools:text="Somewhere in LA" />
+
+                            <TextView
+                                android:id="@+id/movie_user_rating"
+                                style="@style/TextSmall"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/default_margin"
+                                android:gravity="center"
+                                tools:text="8.1/10" />
+
+                            <Button
+                                android:id="@+id/add_event"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="@dimen/default_margin"
+                                android:background="@color/colorPrimary"
+                                android:padding="@dimen/default_margin"
+                                android:drawableLeft="@drawable/ic_favorite_white_24dp"
+                                android:text="@string/add_event_button" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/detailed_event_synopsis_layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/event_info_layout"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/description_event"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="@dimen/default_margin"
+                                android:paddingRight="@dimen/default_margin"
+                                android:paddingTop="@dimen/default_margin"
+                                android:textAppearance="@style/TextSmall"
+                                android:autoLink="web"
+                                tools:text="adfawdfafewrawerawerawredradsfasdffs" />
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1px"
+                                android:layout_marginLeft="@dimen/micro_margin"
+                                android:layout_marginRight="@dimen/micro_margin"
+                                android:background="@android:color/black" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+
+
+                    <FrameLayout
+                        android:id="@+id/frame_bar_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimaryDark">
+
+                        <TextView
+                            android:id="@+id/event_title"
+                            style="@style/TextCardHeader"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/default_margin"
+                            android:gravity="center_vertical"
+                            android:maxLines="3"
+                            android:padding="@dimen/small_margin"
+                            android:textAppearance="@style/TextCardSubText"
+                            tools:text="Forklar feeerwearwerawerawerw araw rawerawerawera wrwearawerd" />
+                    </FrameLayout>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_map" />
+</FrameLayout>

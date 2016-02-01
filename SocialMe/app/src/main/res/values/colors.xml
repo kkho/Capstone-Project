@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorPrimaryLight">#B2DFDB</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+
+    <color name="facebook_button_color">#3b5998</color>
+
+    <color name="orange_color_button">#F08C35</color>
+    <color name="red_color_button">#E53935</color>
+
+
+    <color name="bg_light">#fffff1</color>
+    <color name="bg_dark_transparent">#CC000000</color>
+    <color name="bg_medium_transparent">#AA000000</color>
+    <color name="bg_light_transparent">#15000000</color>
+
+    <color name="text_main">#333333</color>
+    <color name="text_secondary">#727272</color>
+    <color name="text_inverse">#ffffff</color>
+    <color name="text_error">#a42023</color>
+
+    <color name="button_color_newsletter">#2270BB</color>
+
+    <color name="drawerlayout_background_color">#111</color>
+
+    <color name="fab_color_1">#ff5252</color>
+    <color name="fab_color_1_muted">#ff8080</color>
+    <color name="fab_color_2">#9c27b0</color>
+    <color name="fab_color_2_muted">#a56ab0</color>
+    <!--
+      Material Design Typography Color
+      Reference from http://www.google.com/design/spec/style/typography.html#typography-standard-styles
+      -->
+    <!-- For Light Theme Resource -->
+    <color name="Material.Text.Color.Primary.Light">#1C1C1C</color>
+    <color name="Material.Text.Color.Secondary.Light">#727272</color>
+    <!-- For Dark Theme Resource -->
+    <color name="Material.Text.Color.Primary.Dark">#E3E3E3</color>
+    <color name="Material.Text.Color.Secondary.Dark">#323232</color>
+
+
+</resources>

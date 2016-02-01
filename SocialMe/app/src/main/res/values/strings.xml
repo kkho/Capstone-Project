@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SocialMe</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_favourites">Favourites</string>
+    <string name="general_cancel_button_text">Cancel</string>
+    <string name="share_event_text_button">Share arrangement</string>
+    <string name="action_share">Share Event</string>
+    <string name="show_map_button_text">Show on Map</string>
+    <string name="add_event_button">Add event</string>
+    <!-- TODO not sure if you need your own facebook app id -->
+    <string name="facebook_app_id">1689346471320203</string>
+    <string name="fabook_login_button_text">Log in with facebook</string>
+    <string name="app_title">SocialMe</string>
+    <string name="current_location_button_text">Use current location</string>
+</resources>

@@ -1,0 +1,199 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Dialog.Theme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+    </style>
+
+    <style name="ToolBarStyle">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="AppTheme.ActionBarMenu" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/text_main</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="actionMenuTextColor">@color/text_inverse</item>->
+        <item name="android:textColorSecondary">@color/text_inverse</item>
+    </style>
+
+    <!-- Button Styles-->
+
+    <style name="GeneralButtonStyle" parent="FontSmall">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:padding">@dimen/default_margin</item>
+        <item name="android:textColor">@color/text_inverse</item>
+    </style>
+
+    <style name="RedButtonStyle" parent="FontSmall">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:background">@color/red_color_button</item>
+        <item name="android:padding">@dimen/default_margin</item>
+        <item name="android:textColor">@color/text_inverse</item>
+    </style>
+
+    <style name="ThemeColorButtonStyle" parent="FontSmall">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:padding">@dimen/micro_margin</item>
+        <item name="android:textColor">@color/text_inverse</item>
+    </style>
+
+    <!-- EditText Styles-->
+    <style name="SearchTextStyle">
+        <item name="android:layout_margin">@dimen/default_margin</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:inputType">textAutoComplete</item>
+    </style>
+
+    <style name="TextTitle" parent="TextLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextMainTitle" parent="TextExtraLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!-- TextViews -->
+    <style name="FontBase">
+        <item name="android:textColor">@color/text_main</item>
+    </style>
+
+
+    <!--++++++++++++++++++++++++++-->
+    <!--added on API 16 (JB - 4.1)-->
+    <!--++++++++++++++++++++++++++-->
+    <!--the default font-->
+    <string name="fontFamily__roboto_regular">sans-serif</string>
+    <string name="fontFamily__roboto_light">sans-serif-light</string>
+    <string name="fontFamily__roboto_condensed">sans-serif-condensed</string>
+
+    <!--+++++++++++++++++++++++++++++-->
+    <!--added on API 17 (JBMR1 - 4.2)-->
+    <!--+++++++++++++++++++++++++++++-->
+    <string name="fontFamily__roboto_thin">sans-serif-thin</string>
+
+    <!--+++++++++++++++++++++++++++-->
+    <!--added on Lollipop (LL- 5.0)-->
+    <!--+++++++++++++++++++++++++++-->
+    <string name="fontFamily__roboto_small">sans-serif-small</string>
+    <string name="fontFamily__roboto_medium">sans-serif-medium</string>
+    <string name="fontFamily__roboto_black">sans-serif-black</string>
+    <string name="fontFamily__roboto_condensed_light">sans-serif-condensed-light</string>
+
+    <style name="FontSmall" parent="FontBase">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:fontFamily">@string/fontFamily__roboto_medium</item>
+    </style>
+
+    <style name="FontMedium" parent="FontBase">
+        <item name="android:fontFamily">@string/fontFamily__roboto_medium</item>
+    </style>
+
+    <style name="FontLight" parent="FontBase">
+        <item name="android:fontFamily">@string/fontFamily__roboto_light</item>
+    </style>
+
+    <style name="FontCondensed" parent="FontBase">
+        <item name="android:fontFamily">@string/fontFamily__roboto_condensed</item>
+    </style>
+
+    <style name="TextLabel" parent="FontCondensed">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <style name="TextMicro" parent="FontCondensed">
+        <item name="android:textSize">@dimen/text_size_micro</item>
+    </style>
+
+    <style name="TextSmall" parent="FontCondensed">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="TextNormal" parent="FontLight">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="TextLarge" parent="FontLight">
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="TextExtraLarge" parent="FontLight">
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+    </style>
+
+    <style name="TextAppearanceButton" parent="FontMedium">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextButtonExtraBig" parent="FontMedium">
+        <item name="android:textColor">@color/text_inverse</item>
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="TextButtonBig" parent="FontMedium">
+        <item name="android:textColor">@color/text_inverse</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="TextButton" parent="FontMedium">
+        <item name="android:textColor">@color/text_inverse</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="TextButtonSmall" parent="FontMedium">
+        <item name="android:textColor">@color/text_inverse</item>
+        <item name="android:textSize">@dimen/text_size_micro</item>
+    </style>
+
+    <style name="TextCardHeader" parent="FontLight">
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:textColor">@color/text_inverse</item>
+    </style>
+
+    <style name="TextCardSubText" parent="FontLight">
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/text_inverse</item>
+    </style>
+
+    <style name="AppTheme.Base.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Base.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FacebookButtonStyle" parent="TextButton">
+        <item name="android:background">@color/facebook_button_color</item>
+    </style>
+
+    <style name="TextExtraExtraLarge" parent="FontLight">
+        <item name="android:textSize">@dimen/text_size_xxxlarge</item>
+    </style>
+</resources>

@@ -103,7 +103,7 @@ public class EventRemoteViewService extends RemoteViewsService {
         @Override
         public long getItemId(int position) {
             if (mData.moveToPosition(position))
-                return mData.getLong(Config.EventQuery.ID);
+                return mData.getLong(Config.EventQuery._ID);
             return position;
         }
 

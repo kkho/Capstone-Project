@@ -50,8 +50,8 @@
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
                             android:orientation="vertical"
-                            android:layout_marginLeft="@dimen/default_margin"
-                            android:layout_marginRight="@dimen/default_margin"
+                            android:layout_marginStart="@dimen/default_margin"
+                            android:layout_marginEnd="@dimen/default_margin"
                             android:layout_marginTop="@dimen/default_margin"
                             android:layout_marginBottom="@dimen/default_margin"
                             android:layout_toEndOf="@+id/detailed_image">
@@ -61,7 +61,7 @@
                                 style="@style/TextNormal"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="@dimen/default_margin"
+                                android:layout_marginStart="@dimen/default_margin"
                                 android:gravity="center"
                                 tools:text="2015" />
 
@@ -70,7 +70,7 @@
                                 style="@style/TextNormal"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="@dimen/default_margin"
+                                android:layout_marginStart="@dimen/default_margin"
                                 android:gravity="center"
                                 tools:text="Somewhere in LA" />
 
@@ -79,7 +79,7 @@
                                 style="@style/TextSmall"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="@dimen/default_margin"
+                                android:layout_marginStart="@dimen/default_margin"
                                 android:gravity="center"
                                 tools:text="8.1/10" />
 
@@ -91,7 +91,7 @@
                                 android:layout_marginTop="@dimen/default_margin"
                                 android:background="@color/colorPrimary"
                                 android:padding="@dimen/default_margin"
-                                android:drawableLeft="@drawable/ic_favorite_white_24dp"
+                                android:drawableStart="@drawable/ic_favorite_white_24dp"
                                 android:text="@string/add_event_button" />
                         </LinearLayout>
 
@@ -106,8 +106,8 @@
                                 android:id="@+id/description_event"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:paddingLeft="@dimen/default_margin"
-                                android:paddingRight="@dimen/default_margin"
+                                android:paddingStart="@dimen/default_margin"
+                                android:paddingEnd="@dimen/default_margin"
                                 android:paddingTop="@dimen/default_margin"
                                 android:textAppearance="@style/TextSmall"
                                 android:autoLink="web"
@@ -116,13 +116,11 @@
                             <View
                                 android:layout_width="match_parent"
                                 android:layout_height="1px"
-                                android:layout_marginLeft="@dimen/micro_margin"
-                                android:layout_marginRight="@dimen/micro_margin"
+                                android:layout_marginStart="@dimen/micro_margin"
+                                android:layout_marginEnd="@dimen/micro_margin"
                                 android:background="@android:color/black" />
                         </LinearLayout>
                     </RelativeLayout>
-
-
 
 
                     <FrameLayout

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/event_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:layout_marginTop="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="EVENTNAME" />
+
+    <TextView
+        android:id="@+id/event_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="@dimen/default_margin"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="Los Angeles" />
+
+    <TextView
+        android:id="@+id/event_starttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|bottom"
+        android:layout_marginStart="@dimen/default_margin"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:text="14.06.2016" />
+
+</LinearLayout>

@@ -16,7 +16,6 @@ public class Config {
     public static String PAGE_NUMBER_PATH = "page_number";
     public static String CATEGORY_PATH = "category";
     public static String APP_KEY = "OWN APP KEY, get from eventful.com";
-
     public static String EVENT_PATH = "events/search";
     public static String VENUE_PATH = "venues/search";
 

@@ -19,4 +19,5 @@
     <string name="fabook_login_button_text">Log in with facebook</string>
     <string name="app_title">SocialMe</string>
     <string name="current_location_button_text">Use current location</string>
+    <string name="no_events">No Events</string>
 </resources>
